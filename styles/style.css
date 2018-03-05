@@ -1,0 +1,188 @@
+/* style for the body */
+body{
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+/* style for the containers */
+.container{
+    width:88%;
+    margin:auto;
+    overflow:hidden;
+}
+
+/* style for the header */
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom:#e8491d 3px solid;
+}
+
+/* style for the header a's tag */
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+/* style for all ul's */
+ul{
+    margin:0;
+    padding:0;
+}
+
+
+/* style for the header li's */
+
+header li{
+    float: left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+/* style for the header #branding */
+header #branding{
+    float: left;
+
+}
+/* style for the header 3branding h1's */
+header #branding  h1 {
+margin:0;
+}
+/* style for the header nav */
+
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+/* style for the header highlight and current a's */
+header .highlight, header .current a {
+    color:#e8491d;
+    font-weight: bold;
+}
+
+/* style for the header a:hover */
+
+header a:hover{
+    color: #cccccc;
+    font-weight:bold;
+}
+
+/* style for the # showcases. */
+#showcase {
+    min-height: 400px;
+    background:url('../images/bg_sea.jpeg') no-repeat;
+    text-align: center;
+    color:#cccccc;
+}
+
+/* style for the #showcases h1's */
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+/* style for the # showcases p's */
+#showcase p{
+    font-size: 20px;
+}
+
+/* style for the #newsletter */
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+/* style for the #newsletter */
+#newsletter h1{
+    float: left;
+}
+/* style for the #newsletter */
+#newsletter form {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Styles for the #newsletter input field */
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Styles for the id .button_1*/
+.button_1{
+    height:38px;
+    background: #e8491d;
+    border:none;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+/* Styles for the boxes */
+
+#boxes{
+    margin-top: 20px;
+}
+
+/*style for the boxes .box */
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+/*style for the boxes images */
+#boxes .box img{
+    width:90px;
+}
+
+/*style for the id .dark */
+
+
+
+
+/*style for the mail-col */
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+
+/*style for the sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*style for the footer */
+footer{
+    padding: 20px;
+    color:#ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+
+
+
+
+
